@@ -29,23 +29,30 @@ body{
 }
 
 .container{
-    border: 1px solid black;
+    display: inline-block;
     width: 100%;
-    margin-top: 100px;
+    /* border: black solid 1px; */
+    margin-top: 10%;
 }
 
-.container h1{
-    padding-left: 10%;
-    font-size: 60px;
+.subcontainer{
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.subcontainer h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
 }
 
 .green-text{
-    color: rgba(30, 14, 68,.5);
+    color: rgba(91, 134, 21,.7);
 }
 
 .orange-text{
     position: relative;
-    bottom: 40px;
-
-    color: tomato;
+    bottom: 50px;
+    color: rgb(187, 87, 70);
 }
