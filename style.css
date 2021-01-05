@@ -47,12 +47,12 @@ body{
     font-weight: bolder;
 }
 
-.green-text{
-    color: rgba(91, 134, 21,.7);
+.blue-text{
+    color: rgba(27, 8, 63, 0.7);
 }
 
-.orange-text{
+.blur-text{
     position: relative;
     bottom: 50px;
-    color: rgb(187, 87, 70);
+    color: rgba(187, 87, 70,.7);
 }
