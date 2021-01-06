@@ -66,6 +66,7 @@ p{
 }
 
 .buttons a{
+    text-shadow: 3px 3px 5px black;
     font-family: 'Montserrat', sans-serif !important;
     color: white;
     font-weight: bolder;
