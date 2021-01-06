@@ -34,13 +34,13 @@ body{
 
 .container{
     width: 100%;
-    height: 700px;
+    height: 650px;
     /* border: black solid 1px; */
-    margin-top: 2%;
+    margin-top: 2;
 }
 
 .subcontainer{
-    margin-top: 10%;
+    margin-top: 3%;
     /* border: 1px solid black; */
     float: left;
     width: 48%;
@@ -74,12 +74,13 @@ p{
 .subcontainer img{
     width: 70%;
     padding-left: 20%;
+    margin-top: 8%;
     height: auto;
 }
 
 .subcontainer h1{
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bolder;
     padding-left: 30%;
     position: relative;
@@ -99,4 +100,37 @@ p{
     position: relative;
     bottom: 50px;
     color: rgba(187, 87, 70,.7);
+}
+
+.blur-text-simple{
+    color: rgba(187, 87, 70,.7);
+}
+
+#work-section{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5%;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(228, 226, 226);
+}
+
+#work-section h2{
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.work-contents{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 400px;
+    align-content: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 1px 1px 10px black;
+}
+
+.work-contents img{
+    width: 100%;
 }
